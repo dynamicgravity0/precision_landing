@@ -1,0 +1,16 @@
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/lib/uav_vision/aruco_detector_node
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/package_run_dependencies/uav_vision
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/parent_prefix_path/uav_vision
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/ament_prefix_path.sh
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/ament_prefix_path.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/path.sh
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/path.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.bash
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.sh
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.zsh
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/package.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/packages/uav_vision
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/cmake/uav_visionConfig.cmake
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/cmake/uav_visionConfig-version.cmake
+/home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/package.xml

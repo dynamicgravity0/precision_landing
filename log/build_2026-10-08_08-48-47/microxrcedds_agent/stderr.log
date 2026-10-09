@@ -1,0 +1,20 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /usr/local/share/fastdds/cmake/fastdds-config.cmake:51 (find_package)
+  CMakeLists.txt:156 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:132: CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o] Interrupt
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:90: CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o] Interrupt
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:104: CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o] Interrupt
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:118: CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o] Interrupt
+gmake[4]: *** [CMakeFiles/Makefile2:85: CMakeFiles/microxrcedds_agent.dir/all] Interrupt
+gmake[3]: *** [Makefile:136: all] Interrupt
+gmake[2]: *** [CMakeFiles/uagent.dir/build.make:86: uagent-prefix/src/uagent-stamp/uagent-build] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Interrupt
+gmake: *** [Makefile:91: all] Interrupt

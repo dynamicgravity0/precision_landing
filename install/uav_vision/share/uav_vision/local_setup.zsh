@@ -1,0 +1,1 @@
+/home/ubuntu/uav_landing_sim_wg/build/uav_vision/ament_cmake_environment_hooks/local_setup.zsh

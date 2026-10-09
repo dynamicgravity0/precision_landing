@@ -1,0 +1,17 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_interfaces
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_interfaces
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.dsv
+-- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.dsv
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/packages/uav_interfaces
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.xml

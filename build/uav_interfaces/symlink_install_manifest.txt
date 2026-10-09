@@ -1,0 +1,15 @@
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_interfaces
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_interfaces
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.sh
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.sh
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.bash
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.sh
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.zsh
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.dsv
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/packages/uav_interfaces
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig.cmake
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig-version.cmake
+/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.xml

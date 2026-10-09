@@ -1,0 +1,2 @@
+source;share/uav_autonomy/environment/ament_prefix_path.sh
+source;share/uav_autonomy/environment/path.sh

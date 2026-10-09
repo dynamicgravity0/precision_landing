@@ -1,0 +1,1026 @@
+[0.000000] (-) TimerEvent: {}
+[0.002000] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002611] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.003102] (microxrcedds_agent) JobQueued: {'identifier': 'microxrcedds_agent', 'dependencies': OrderedDict()}
+[0.003321] (uav_interfaces) JobQueued: {'identifier': 'uav_interfaces', 'dependencies': OrderedDict()}
+[0.003592] (uav_vision) JobQueued: {'identifier': 'uav_vision', 'dependencies': OrderedDict()}
+[0.003676] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs')])}
+[0.003765] (uav_autonomy) JobQueued: {'identifier': 'uav_autonomy', 'dependencies': OrderedDict([('uav_interfaces', '/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces')])}
+[0.003846] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.032521] (uav_interfaces) JobStarted: {'identifier': 'uav_interfaces'}
+[0.054345] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.076358] (microxrcedds_agent) JobStarted: {'identifier': 'microxrcedds_agent'}
+[0.099295] (-) TimerEvent: {}
+[0.104785] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.108768] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/uav_landing_sim_wg/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.122860] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'cmake'}
+[0.127782] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'build'}
+[0.130620] (uav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.142738] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.148369] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.149650] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.175933] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'cmake'}
+[0.177404] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.180581] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/uav_landing_sim_wg/src/Micro-XRCE-DDS-Agent', '-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs')]), 'shell': False}
+[0.199458] (-) TimerEvent: {}
+[0.300891] (-) TimerEvent: {}
+[0.328910] (uav_interfaces) CommandEnded: {'returncode': 0}
+[0.335985] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'install'}
+[0.381649] (uav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.398272] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.400945] (-) TimerEvent: {}
+[0.421414] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.421811] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_setup'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.432858] (uav_interfaces) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.436094] (uav_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.437786] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_interfaces\n'}
+[0.439916] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_interfaces\n'}
+[0.441791] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.sh\n'}
+[0.443041] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.445337] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.sh\n'}
+[0.447268] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.dsv\n'}
+[0.449346] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.bash\n'}
+[0.451586] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.sh\n'}
+[0.453567] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.zsh\n'}
+[0.454941] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.dsv\n'}
+[0.455995] (uav_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.dsv\n'}
+[0.478166] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.480311] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.482864] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.485597] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.487871] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.489982] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.492315] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.494586] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.496845] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.499662] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.501455] (-) TimerEvent: {}
+[0.504014] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/packages/uav_interfaces\n'}
+[0.506807] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig.cmake\n'}
+[0.508972] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig-version.cmake\n'}
+[0.510419] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.512824] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.xml\n'}
+[0.516658] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.521677] (uav_interfaces) CommandEnded: {'returncode': 0}
+[0.539364] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.550508] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.552830] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.554053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.555541] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config\n'}
+[0.556790] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib\n'}
+[0.562293] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.567841] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.572208] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.573661] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.576329] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.578249] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.579512] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.580250] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.580708] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.581053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.587840] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host\n'}
+[0.589520] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic\n'}
+[0.592039] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.594196] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.597733] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.599839] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.602363] (-) TimerEvent: {}
+[0.605419] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.606535] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.607071] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.607721] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.608621] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.609804] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed\n'}
+[0.610873] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.615380] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.616137] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.619305] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.620176] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.621292] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.622828] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.625094] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.625767] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.626538] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.627629] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.628893] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.631584] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.632407] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos\n'}
+[0.633013] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.645197] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.646008] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.646790] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.647862] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.648963] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.651630] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.652423] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.653043] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.653823] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.654772] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.655838] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.660912] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.661803] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.662595] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.664150] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.665304] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.669108] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.670558] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.673321] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.673985] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.674607] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.675099] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.676408] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.677258] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.678257] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.678724] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.679409] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.680315] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.682495] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.685496] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.686223] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.686929] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.687410] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.687924] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.688808] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.689684] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.690537] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.691531] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.692371] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.693226] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.693975] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.695154] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.695885] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.696685] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.697509] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.698087] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.698891] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.699782] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.700785] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.703714] (-) TimerEvent: {}
+[0.704669] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.707009] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.708337] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.709279] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.711002] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.712655] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.713937] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.715664] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.717369] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.718239] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.719226] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.721118] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.726564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.728832] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.729950] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.732615] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.733346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.734336] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr\n'}
+[0.735801] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.737227] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.739736] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.740468] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.741314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.742788] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.744910] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.745739] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.746665] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.748713] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.750762] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.751660] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.752498] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.754399] (microxrcedds_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.756646] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian\n'}
+[0.757538] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.758342] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.759825] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.760719] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.762860] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.768687] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.769682] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.771310] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.773246] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.774203] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.775048] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/utils.sh\n'}
+[0.775794] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.776454] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.777288] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.777938] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.778712] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.779564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.780378] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.781799] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.782977] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.783753] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.784415] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.785058] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.785711] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.786295] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.786943] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android\n'}
+[0.787490] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic\n'}
+[0.788094] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.789482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.790033] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.790611] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.791231] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.792116] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.792809] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.793942] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.794791] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.795631] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.796450] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.797083] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.797768] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.798400] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.799820] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.800298] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.800633] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.800931] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.801424] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802012] (uav_interfaces) JobEnded: {'identifier': 'uav_interfaces', 'rc': 0}
+[0.805284] (-) TimerEvent: {}
+[0.806424] (uav_vision) JobStarted: {'identifier': 'uav_vision'}
+[0.820733] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.905653] (-) TimerEvent: {}
+[0.948514] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.954646] (uav_autonomy) JobStarted: {'identifier': 'uav_autonomy'}
+[0.996054] (uav_vision) JobProgress: {'identifier': 'uav_vision', 'progress': 'cmake'}
+[1.002092] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.004253] (uav_vision) JobProgress: {'identifier': 'uav_vision', 'progress': 'build'}
+[1.009005] (uav_vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/uav_vision', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/uav_vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/uav_vision'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.015698] (-) TimerEvent: {}
+[1.016472] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.042591] (uav_autonomy) JobProgress: {'identifier': 'uav_autonomy', 'progress': 'cmake'}
+[1.042916] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.043467] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.044062] (uav_autonomy) JobProgress: {'identifier': 'uav_autonomy', 'progress': 'build'}
+[1.044203] (uav_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.067188] (microxrcedds_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.068108] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.069839] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.116144] (-) TimerEvent: {}
+[1.217860] (-) TimerEvent: {}
+[1.233969] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.311449] (uav_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target landing_manager_node\x1b[0m\n'}
+[1.318097] (-) TimerEvent: {}
+[1.348986] (microxrcedds_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.373181] (uav_vision) StdoutLine: {'line': b'[100%] Built target aruco_detector_node\n'}
+[1.385586] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.400149] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.418519] (-) TimerEvent: {}
+[1.422781] (uav_vision) CommandEnded: {'returncode': 0}
+[1.433751] (uav_vision) JobProgress: {'identifier': 'uav_vision', 'progress': 'install'}
+[1.434176] (uav_vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/uav_landing_sim_wg/build/uav_vision'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/uav_vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/uav_vision'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.439535] (uav_autonomy) StdoutLine: {'line': b'[100%] Built target landing_manager_node\n'}
+[1.473855] (uav_vision) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.477730] (uav_vision) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.482213] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/lib/uav_vision/aruco_detector_node\n'}
+[1.484032] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/package_run_dependencies/uav_vision\n'}
+[1.486409] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/parent_prefix_path/uav_vision\n'}
+[1.488750] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/ament_prefix_path.sh\n'}
+[1.490608] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/ament_prefix_path.dsv\n'}
+[1.492383] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/path.sh\n'}
+[1.493656] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/path.dsv\n'}
+[1.495571] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.bash\n'}
+[1.498837] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.sh\n'}
+[1.501066] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.zsh\n'}
+[1.502321] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.dsv\n'}
+[1.503334] (uav_vision) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/package.dsv\n'}
+[1.519094] (-) TimerEvent: {}
+[1.523890] (uav_autonomy) CommandEnded: {'returncode': 0}
+[1.537379] (uav_autonomy) JobProgress: {'identifier': 'uav_autonomy', 'progress': 'install'}
+[1.537709] (uav_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[1.549758] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/packages/uav_vision\n'}
+[1.553634] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/cmake/uav_visionConfig.cmake\n'}
+[1.556686] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/cmake/uav_visionConfig-version.cmake\n'}
+[1.561279] (uav_vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/package.xml\n'}
+[1.581364] (uav_vision) CommandEnded: {'returncode': 0}
+[1.583805] (uav_autonomy) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.589261] (uav_autonomy) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.594159] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/uav_autonomy/landing_manager_node\n'}
+[1.598780] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//launch/hardware.launch.py\n'}
+[1.602608] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//config/copter_gimbal.parm\n'}
+[1.603608] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//config/daf_xf_450_tractor.param\n'}
+[1.606758] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/package_run_dependencies/uav_autonomy\n'}
+[1.608477] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/parent_prefix_path/uav_autonomy\n'}
+[1.612606] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/ament_prefix_path.sh\n'}
+[1.614020] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/ament_prefix_path.dsv\n'}
+[1.615891] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/path.sh\n'}
+[1.616939] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/path.dsv\n'}
+[1.618545] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.bash\n'}
+[1.619188] (-) TimerEvent: {}
+[1.621564] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.sh\n'}
+[1.623819] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.zsh\n'}
+[1.625363] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.dsv\n'}
+[1.626678] (uav_autonomy) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.dsv\n'}
+[1.674273] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/packages/uav_autonomy\n'}
+[1.678021] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/cmake/uav_autonomyConfig.cmake\n'}
+[1.679448] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/cmake/uav_autonomyConfig-version.cmake\n'}
+[1.681656] (uav_autonomy) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.xml\n'}
+[1.698016] (uav_vision) JobEnded: {'identifier': 'uav_vision', 'rc': 0}
+[1.702473] (uav_autonomy) CommandEnded: {'returncode': 0}
+[1.719544] (-) TimerEvent: {}
+[1.801988] (uav_autonomy) JobEnded: {'identifier': 'uav_autonomy', 'rc': 0}
+[1.819754] (-) TimerEvent: {}
+[1.860892] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.887878] (microxrcedds_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.889195] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.892131] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.920103] (-) TimerEvent: {}
+[1.994525] (microxrcedds_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.020258] (-) TimerEvent: {}
+[2.121248] (-) TimerEvent: {}
+[2.222133] (-) TimerEvent: {}
+[2.323037] (-) TimerEvent: {}
+[2.360521] (microxrcedds_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.361739] (microxrcedds_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.423220] (-) TimerEvent: {}
+[2.524198] (-) TimerEvent: {}
+[2.625517] (-) TimerEvent: {}
+[2.723204] (microxrcedds_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.725670] (-) TimerEvent: {}
+[2.726711] (microxrcedds_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.787733] (microxrcedds_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.802855] (microxrcedds_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[2.810341] (microxrcedds_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent\n'}
+[2.826098] (-) TimerEvent: {}
+[2.830633] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[2.833468] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'build'}
+[2.835202] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs')]), 'shell': False}
+[2.926271] (-) TimerEvent: {}
+[2.971815] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.026497] (-) TimerEvent: {}
+[3.043736] (microxrcedds_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[3.126771] (-) TimerEvent: {}
+[3.228642] (-) TimerEvent: {}
+[3.329579] (-) TimerEvent: {}
+[3.353402] (microxrcedds_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[3.429746] (-) TimerEvent: {}
+[3.455261] (microxrcedds_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[3.530109] (-) TimerEvent: {}
+[3.565665] (microxrcedds_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[3.630333] (-) TimerEvent: {}
+[3.674112] (microxrcedds_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[3.712081] (microxrcedds_agent) StdoutLine: {'line': b'loading initial cache file /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[3.730491] (-) TimerEvent: {}
+[3.735493] (microxrcedds_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[3.830661] (-) TimerEvent: {}
+[3.903748] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.930887] (-) TimerEvent: {}
+[4.013920] (microxrcedds_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[4.014782] (microxrcedds_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[4.015211] (microxrcedds_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[4.015583] (microxrcedds_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[4.016037] (microxrcedds_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[4.016444] (microxrcedds_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.016799] (microxrcedds_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[4.017212] (microxrcedds_agent) StderrLine: {'line': b'  /usr/local/share/fastdds/cmake/fastdds-config.cmake:51 (find_package)\n'}
+[4.017644] (microxrcedds_agent) StderrLine: {'line': b'  CMakeLists.txt:156 (find_package)\n'}
+[4.017993] (microxrcedds_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.018409] (microxrcedds_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[4.018892] (microxrcedds_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/aarch64-linux-gnu/libtinyxml2.so  \n'}
+[4.031034] (-) TimerEvent: {}
+[4.131795] (-) TimerEvent: {}
+[4.232811] (-) TimerEvent: {}
+[4.255887] (microxrcedds_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.290905] (microxrcedds_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.332973] (-) TimerEvent: {}
+[4.358486] (microxrcedds_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[4.376857] (microxrcedds_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent\n'}
+[4.433261] (-) TimerEvent: {}
+[4.455468] (microxrcedds_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[4.533480] (-) TimerEvent: {}
+[4.634458] (-) TimerEvent: {}
+[4.647675] (microxrcedds_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[4.654991] (microxrcedds_agent) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[4.663812] (microxrcedds_agent) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[4.702892] (microxrcedds_agent) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[4.734876] (-) TimerEvent: {}
+[4.836821] (-) TimerEvent: {}
+[4.938027] (-) TimerEvent: {}
+[5.039145] (-) TimerEvent: {}
+[5.145411] (-) TimerEvent: {}
+[5.246429] (-) TimerEvent: {}
+[5.289223] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.346698] (-) TimerEvent: {}
+[5.447712] (-) TimerEvent: {}
+[5.452682] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.547987] (-) TimerEvent: {}
+[5.635022] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.636446] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.637892] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[5.648239] (-) TimerEvent: {}
+[5.749669] (-) TimerEvent: {}
+[5.850830] (-) TimerEvent: {}
+[5.951917] (-) TimerEvent: {}
+[6.053273] (-) TimerEvent: {}
+[6.154351] (-) TimerEvent: {}
+[6.256139] (-) TimerEvent: {}
+[6.357445] (-) TimerEvent: {}
+[6.435629] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.457714] (-) TimerEvent: {}
+[6.559243] (-) TimerEvent: {}
+[6.622259] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.659691] (-) TimerEvent: {}
+[6.709350] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.749942] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.759927] (-) TimerEvent: {}
+[6.860919] (-) TimerEvent: {}
+[6.962742] (-) TimerEvent: {}
+[7.063804] (-) TimerEvent: {}
+[7.100074] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[7.164080] (-) TimerEvent: {}
+[7.206579] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs\n'}
+[7.252091] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[7.255926] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[7.257964] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[7.266687] (-) TimerEvent: {}
+[7.368903] (-) TimerEvent: {}
+[7.470975] (-) TimerEvent: {}
+[7.572880] (-) TimerEvent: {}
+[7.674139] (-) TimerEvent: {}
+[7.775154] (-) TimerEvent: {}
+[7.789544] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[7.875498] (-) TimerEvent: {}
+[7.935505] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[7.975808] (-) TimerEvent: {}
+[7.989693] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__rs\n'}
+[7.995060] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[8.063598] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.076144] (-) TimerEvent: {}
+[8.080712] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[8.159143] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.176732] (-) TimerEvent: {}
+[8.198168] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[8.276991] (-) TimerEvent: {}
+[8.288872] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[8.304359] (micro_ros_msgs) StdoutLine: {'line': b'[ 35%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[8.377348] (-) TimerEvent: {}
+[8.380030] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.390180] (micro_ros_msgs) StdoutLine: {'line': b'[ 45%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[8.404324] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[8.451041] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.477582] (-) TimerEvent: {}
+[8.540823] (micro_ros_msgs) StdoutLine: {'line': b'[ 56%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[8.551239] (micro_ros_msgs) StdoutLine: {'line': b'[ 66%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[8.577834] (-) TimerEvent: {}
+[8.666293] (micro_ros_msgs) StdoutLine: {'line': b'[ 77%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.678596] (-) TimerEvent: {}
+[8.779999] (-) TimerEvent: {}
+[8.881406] (-) TimerEvent: {}
+[8.971251] (micro_ros_msgs) StdoutLine: {'line': b'[ 77%] Built target micro_ros_msgs\n'}
+[8.981689] (-) TimerEvent: {}
+[9.083249] (-) TimerEvent: {}
+[9.184721] (-) TimerEvent: {}
+[9.269334] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs__py\n'}
+[9.284980] (-) TimerEvent: {}
+[9.386466] (-) TimerEvent: {}
+[9.416459] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_py\x1b[0m\n'}
+[9.486762] (-) TimerEvent: {}
+[9.588291] (-) TimerEvent: {}
+[9.608363] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[9.688570] (-) TimerEvent: {}
+[9.753348] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.788797] (-) TimerEvent: {}
+[9.791481] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.807151] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.889109] (-) TimerEvent: {}
+[9.925301] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.952354] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.977213] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[9.989431] (-) TimerEvent: {}
+[10.091001] (-) TimerEvent: {}
+[10.192545] (-) TimerEvent: {}
+[10.294113] (-) TimerEvent: {}
+[10.395503] (-) TimerEvent: {}
+[10.497269] (-) TimerEvent: {}
+[10.599026] (-) TimerEvent: {}
+[10.700827] (-) TimerEvent: {}
+[10.802659] (-) TimerEvent: {}
+[10.895160] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[10.902861] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[10.903889] (-) TimerEvent: {}
+[10.907363] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[10.911194] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[10.929309] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[10.935465] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[11.004172] (-) TimerEvent: {}
+[11.105915] (-) TimerEvent: {}
+[11.150473] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[11.206229] (-) TimerEvent: {}
+[11.297514] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[11.310108] (-) TimerEvent: {}
+[11.311003] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[11.311356] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[11.391283] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.392442] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[11.393515] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[11.394852] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[11.396394] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[11.397753] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[11.398670] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[11.399495] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.400331] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[11.401376] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[11.402210] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[11.403127] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[11.403999] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[11.405021] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[11.417404] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[11.418465] (-) TimerEvent: {}
+[11.419465] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[11.420590] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[11.421637] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[11.422655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[11.424099] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[11.425414] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[11.426438] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[11.427455] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[11.441424] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[11.442624] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[11.443479] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[11.444455] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.445462] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[11.446744] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[11.448116] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[11.449342] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[11.462655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.464012] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[11.465247] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[11.466736] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[11.468089] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[11.469527] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[11.470401] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[11.471184] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[11.471953] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[11.472809] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[11.486835] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.488130] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.489218] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[11.490447] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[11.491570] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[11.492616] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[11.501864] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[11.503200] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[11.503922] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[11.504854] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[11.505753] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[11.506644] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[11.507430] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[11.508195] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[11.508985] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[11.509910] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[11.510739] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[11.511483] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[11.512229] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[11.513033] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[11.513896] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[11.514749] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.515810] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[11.516647] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[11.529976] (-) TimerEvent: {}
+[11.530942] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.531830] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[11.532888] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.534003] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[11.534898] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.535816] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.536694] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.537641] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[11.538308] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[11.538947] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[11.550260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.551529] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[11.552746] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.553982] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[11.555622] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[11.563074] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.564301] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.565458] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[11.566629] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[11.567871] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[11.569042] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[11.578302] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[11.579311] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[11.580625] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[11.582199] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[11.583306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[11.584448] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.585637] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.586832] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[11.587724] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.588734] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.602220] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.603392] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[11.604504] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[11.606078] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[11.607565] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[11.609477] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[11.610838] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[11.612017] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[11.613451] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[11.614677] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[11.615811] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[11.630218] (-) TimerEvent: {}
+[11.731412] (-) TimerEvent: {}
+[11.833198] (-) TimerEvent: {}
+[11.896653] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[11.898891] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[11.900848] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[11.933523] (-) TimerEvent: {}
+[11.947481] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.951606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.956026] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[11.960865] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[11.965074] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust\n'}
+[11.967845] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src\n'}
+[11.970681] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg.rs\n'}
+[11.973375] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg\n'}
+[11.976495] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg/rmw.rs\n'}
+[11.978638] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/lib.rs\n'}
+[11.981077] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/build.rs\n'}
+[11.983429] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/Cargo.toml\n'}
+[11.986072] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[11.988485] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[11.991280] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[11.993733] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[11.996080] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[11.998518] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[12.001016] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[12.003826] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[12.008048] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[12.010438] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[12.014227] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[12.016613] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[12.020738] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[12.023529] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[12.025809] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[12.027997] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[12.031844] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[12.036438] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[12.037572] (-) TimerEvent: {}
+[12.041538] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[12.044092] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.047206] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.049628] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.052696] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.055437] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.058599] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.061506] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.064393] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.067464] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.070075] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.073408] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.076267] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.079871] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.082662] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.085947] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[12.088372] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.090653] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.093052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.103222] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.104182] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.105075] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.106007] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.106820] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.107700] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[12.108589] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[12.109595] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[12.110528] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[12.125375] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[12.137820] (-) TimerEvent: {}
+[12.244610] (-) TimerEvent: {}
+[12.346544] (-) TimerEvent: {}
+[12.448203] (-) TimerEvent: {}
+[12.466237] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[12.472734] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[12.548513] (-) TimerEvent: {}
+[12.649958] (-) TimerEvent: {}
+[12.678520] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[12.685393] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/uav_landing_sim_wg/src/uros/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/opt/ros/humble')]), 'shell': False}
+[12.750340] (-) TimerEvent: {}
+[12.768419] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.850646] (-) TimerEvent: {}
+[12.952528] (-) TimerEvent: {}
+[13.053649] (-) TimerEvent: {}
+[13.155830] (-) TimerEvent: {}
+[13.257354] (-) TimerEvent: {}
+[13.359983] (-) TimerEvent: {}
+[13.461254] (-) TimerEvent: {}
+[13.562699] (-) TimerEvent: {}
+[13.664466] (-) TimerEvent: {}
+[13.766149] (-) TimerEvent: {}
+[13.867652] (-) TimerEvent: {}
+[13.969543] (-) TimerEvent: {}
+[14.071266] (-) TimerEvent: {}
+[14.172451] (-) TimerEvent: {}
+[14.273649] (-) TimerEvent: {}
+[14.286080] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.9 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[14.289939] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[14.373988] (-) TimerEvent: {}
+[14.474795] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.4 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[14.475776] (-) TimerEvent: {}
+[14.479633] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[14.576113] (-) TimerEvent: {}
+[14.677399] (-) TimerEvent: {}
+[14.705828] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[14.757921] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[14.777655] (-) TimerEvent: {}
+[14.807392] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.877939] (-) TimerEvent: {}
+[14.881585] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.978204] (-) TimerEvent: {}
+[15.077826] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[15.078738] (-) TimerEvent: {}
+[15.180319] (-) TimerEvent: {}
+[15.281712] (-) TimerEvent: {}
+[15.383273] (-) TimerEvent: {}
+[15.484838] (-) TimerEvent: {}
+[15.586431] (-) TimerEvent: {}
+[15.687824] (-) TimerEvent: {}
+[15.789450] (-) TimerEvent: {}
+[15.790976] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.813752] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[15.818846] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[15.889706] (-) TimerEvent: {}
+[15.991327] (-) TimerEvent: {}
+[16.092885] (-) TimerEvent: {}
+[16.193958] (-) TimerEvent: {}
+[16.295071] (-) TimerEvent: {}
+[16.396309] (-) TimerEvent: {}
+[16.497481] (-) TimerEvent: {}
+[16.599024] (-) TimerEvent: {}
+[16.701109] (-) TimerEvent: {}
+[16.802742] (-) TimerEvent: {}
+[16.904450] (-) TimerEvent: {}
+[16.967669] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.004740] (-) TimerEvent: {}
+[17.056306] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[17.083994] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent\n'}
+[17.105215] (-) TimerEvent: {}
+[17.116481] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[17.120153] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[17.122296] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/opt/ros/humble')]), 'shell': False}
+[17.205436] (-) TimerEvent: {}
+[17.307135] (-) TimerEvent: {}
+[17.408866] (-) TimerEvent: {}
+[17.510713] (-) TimerEvent: {}
+[17.612416] (-) TimerEvent: {}
+[17.614689] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_agent\x1b[0m\n'}
+[17.712766] (-) TimerEvent: {}
+[17.814658] (-) TimerEvent: {}
+[17.888521] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[17.914982] (-) TimerEvent: {}
+[18.003044] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[18.007406] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[18.009054] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent'], 'cwd': '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.114 48056 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/lib:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.local/bin:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.114 48056 192.168.0.149 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/opt/ros/humble')]), 'shell': False}
+[18.015101] (-) TimerEvent: {}
+[18.111408] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.112798] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[18.115404] (-) TimerEvent: {}
+[18.125625] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[18.128266] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[18.129627] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[18.130861] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[18.132210] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[18.133456] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[18.135088] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[18.136255] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[18.137410] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[18.138288] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[18.151488] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[18.152974] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.153920] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[18.166287] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[18.167475] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[18.168677] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[18.170629] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[18.171878] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[18.189588] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[18.216124] (-) TimerEvent: {}
+[18.318257] (-) TimerEvent: {}
+[18.378553] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[18.418589] (-) TimerEvent: {}
+[18.520436] (-) TimerEvent: {}
+[18.621909] (-) TimerEvent: {}
+[18.723360] (-) TimerEvent: {}
+[18.824888] (-) TimerEvent: {}
+[18.926533] (-) TimerEvent: {}
+[19.028206] (-) TimerEvent: {}
+[19.130226] (-) TimerEvent: {}
+[19.231669] (-) TimerEvent: {}
+[19.333022] (-) TimerEvent: {}
+[19.434282] (-) TimerEvent: {}
+[19.535620] (-) TimerEvent: {}
+[19.636903] (-) TimerEvent: {}
+[19.738126] (-) TimerEvent: {}
+[19.839302] (-) TimerEvent: {}
+[19.940537] (-) TimerEvent: {}
+[20.041690] (-) TimerEvent: {}
+[20.142946] (-) TimerEvent: {}
+[20.244097] (-) TimerEvent: {}
+[20.345286] (-) TimerEvent: {}
+[20.446450] (-) TimerEvent: {}
+[20.547663] (-) TimerEvent: {}
+[20.648827] (-) TimerEvent: {}
+[20.750189] (-) TimerEvent: {}
+[20.851513] (-) TimerEvent: {}
+[20.953293] (-) TimerEvent: {}
+[21.054791] (-) TimerEvent: {}
+[21.156475] (-) TimerEvent: {}
+[21.257803] (-) TimerEvent: {}
+[21.359026] (-) TimerEvent: {}
+[21.460212] (-) TimerEvent: {}
+[21.561437] (-) TimerEvent: {}
+[21.662647] (-) TimerEvent: {}
+[21.763844] (-) TimerEvent: {}
+[21.865100] (-) TimerEvent: {}
+[21.966274] (-) TimerEvent: {}
+[22.067390] (-) TimerEvent: {}
+[22.168675] (-) TimerEvent: {}
+[22.269768] (-) TimerEvent: {}
+[22.371245] (-) TimerEvent: {}
+[22.472984] (-) TimerEvent: {}
+[22.574533] (-) TimerEvent: {}
+[22.675824] (-) TimerEvent: {}
+[22.777107] (-) TimerEvent: {}
+[22.878354] (-) TimerEvent: {}
+[22.979609] (-) TimerEvent: {}
+[23.081111] (-) TimerEvent: {}
+[23.183006] (-) TimerEvent: {}
+[23.284156] (-) TimerEvent: {}
+[23.385405] (-) TimerEvent: {}
+[23.486563] (-) TimerEvent: {}
+[23.588166] (-) TimerEvent: {}
+[23.689753] (-) TimerEvent: {}
+[23.791335] (-) TimerEvent: {}
+[23.892883] (-) TimerEvent: {}
+[23.994618] (-) TimerEvent: {}
+[24.096197] (-) TimerEvent: {}
+[24.197880] (-) TimerEvent: {}
+[24.299627] (-) TimerEvent: {}
+[24.401414] (-) TimerEvent: {}
+[24.503016] (-) TimerEvent: {}
+[24.604667] (-) TimerEvent: {}
+[24.706277] (-) TimerEvent: {}
+[24.807882] (-) TimerEvent: {}
+[24.909418] (-) TimerEvent: {}
+[25.011069] (-) TimerEvent: {}
+[25.112705] (-) TimerEvent: {}
+[25.214378] (-) TimerEvent: {}
+[25.316102] (-) TimerEvent: {}
+[25.417765] (-) TimerEvent: {}
+[25.518921] (-) TimerEvent: {}
+[25.620110] (-) TimerEvent: {}
+[25.721390] (-) TimerEvent: {}
+[25.822644] (-) TimerEvent: {}
+[25.923977] (-) TimerEvent: {}
+[26.025341] (-) TimerEvent: {}
+[26.126622] (-) TimerEvent: {}
+[26.227872] (-) TimerEvent: {}
+[26.329057] (-) TimerEvent: {}
+[26.430227] (-) TimerEvent: {}
+[26.531415] (-) TimerEvent: {}
+[26.632659] (-) TimerEvent: {}
+[26.733909] (-) TimerEvent: {}
+[26.835204] (-) TimerEvent: {}
+[26.936522] (-) TimerEvent: {}
+[27.037681] (-) TimerEvent: {}
+[27.138728] (-) TimerEvent: {}
+[27.239963] (-) TimerEvent: {}
+[27.341231] (-) TimerEvent: {}
+[27.442615] (-) TimerEvent: {}
+[27.544211] (-) TimerEvent: {}
+[27.645412] (-) TimerEvent: {}
+[27.746738] (-) TimerEvent: {}
+[27.848107] (-) TimerEvent: {}
+[27.949486] (-) TimerEvent: {}
+[28.038110] (microxrcedds_agent) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[28.049765] (-) TimerEvent: {}
+[28.150858] (-) TimerEvent: {}
+[28.251969] (-) TimerEvent: {}
+[28.353330] (-) TimerEvent: {}
+[28.454764] (-) TimerEvent: {}
+[28.555925] (-) TimerEvent: {}
+[28.657101] (-) TimerEvent: {}
+[28.758282] (-) TimerEvent: {}
+[28.859466] (-) TimerEvent: {}
+[28.960802] (-) TimerEvent: {}
+[29.062102] (-) TimerEvent: {}
+[29.163268] (-) TimerEvent: {}
+[29.264507] (-) TimerEvent: {}
+[29.365704] (-) TimerEvent: {}
+[29.467341] (-) TimerEvent: {}
+[29.568514] (-) TimerEvent: {}
+[29.669792] (-) TimerEvent: {}
+[29.771025] (-) TimerEvent: {}
+[29.872438] (-) TimerEvent: {}
+[29.973704] (-) TimerEvent: {}
+[30.075135] (-) TimerEvent: {}
+[30.176508] (-) TimerEvent: {}
+[30.278029] (-) TimerEvent: {}
+[30.379705] (-) TimerEvent: {}
+[30.481446] (-) TimerEvent: {}
+[30.583356] (-) TimerEvent: {}
+[30.685185] (-) TimerEvent: {}
+[30.786989] (-) TimerEvent: {}
+[30.888831] (-) TimerEvent: {}
+[30.990692] (-) TimerEvent: {}
+[31.092608] (-) TimerEvent: {}
+[31.194812] (-) TimerEvent: {}
+[31.296594] (-) TimerEvent: {}
+[31.397860] (-) TimerEvent: {}
+[31.499267] (-) TimerEvent: {}
+[31.600393] (-) TimerEvent: {}
+[31.701577] (-) TimerEvent: {}
+[31.802752] (-) TimerEvent: {}
+[31.904055] (-) TimerEvent: {}
+[32.005572] (-) TimerEvent: {}
+[32.107100] (-) TimerEvent: {}
+[32.208396] (-) TimerEvent: {}
+[32.309596] (-) TimerEvent: {}
+[32.411051] (-) TimerEvent: {}
+[32.512369] (-) TimerEvent: {}
+[32.613630] (-) TimerEvent: {}
+[32.714858] (-) TimerEvent: {}
+[32.816157] (-) TimerEvent: {}
+[32.917388] (-) TimerEvent: {}
+[33.018756] (-) TimerEvent: {}
+[33.119999] (-) TimerEvent: {}
+[33.221311] (-) TimerEvent: {}
+[33.322544] (-) TimerEvent: {}
+[33.423844] (-) TimerEvent: {}
+[33.525024] (-) TimerEvent: {}
+[33.626283] (-) TimerEvent: {}
+[33.727365] (-) TimerEvent: {}
+[33.828564] (-) TimerEvent: {}
+[33.929832] (-) TimerEvent: {}
+[34.031112] (-) TimerEvent: {}
+[34.132395] (-) TimerEvent: {}
+[34.233640] (-) TimerEvent: {}
+[34.334845] (-) TimerEvent: {}
+[34.436172] (-) TimerEvent: {}
+[34.537400] (-) TimerEvent: {}
+[34.638507] (-) TimerEvent: {}
+[34.739725] (-) TimerEvent: {}
+[34.841047] (-) TimerEvent: {}
+[34.942720] (-) TimerEvent: {}
+[35.044449] (-) TimerEvent: {}
+[35.146542] (-) TimerEvent: {}
+[35.248512] (-) TimerEvent: {}
+[35.350068] (-) TimerEvent: {}
+[35.451742] (-) TimerEvent: {}
+[35.553680] (-) TimerEvent: {}
+[35.654790] (-) TimerEvent: {}
+[35.755947] (-) TimerEvent: {}
+[35.857249] (-) TimerEvent: {}
+[35.958490] (-) TimerEvent: {}
+[36.059926] (-) TimerEvent: {}
+[36.161268] (-) TimerEvent: {}
+[36.262526] (-) TimerEvent: {}
+[36.363817] (-) TimerEvent: {}
+[36.465054] (-) TimerEvent: {}
+[36.566298] (-) TimerEvent: {}
+[36.667366] (-) TimerEvent: {}
+[36.768480] (-) TimerEvent: {}
+[36.869761] (-) TimerEvent: {}
+[36.971068] (-) TimerEvent: {}
+[37.072422] (-) TimerEvent: {}
+[37.173600] (-) TimerEvent: {}
+[37.275150] (-) TimerEvent: {}
+[37.376879] (-) TimerEvent: {}
+[37.478417] (-) TimerEvent: {}
+[37.580018] (-) TimerEvent: {}
+[37.681410] (-) TimerEvent: {}
+[37.783127] (-) TimerEvent: {}
+[37.884509] (-) TimerEvent: {}
+[37.985832] (-) TimerEvent: {}
+[38.087235] (-) TimerEvent: {}
+[38.188523] (-) TimerEvent: {}
+[38.289744] (-) TimerEvent: {}
+[38.391097] (-) TimerEvent: {}
+[38.492416] (-) TimerEvent: {}
+[38.593574] (-) TimerEvent: {}
+[38.695048] (-) TimerEvent: {}
+[38.796390] (-) TimerEvent: {}
+[38.897642] (-) TimerEvent: {}
+[38.998913] (-) TimerEvent: {}
+[39.100247] (-) TimerEvent: {}
+[39.201651] (-) TimerEvent: {}
+[39.303399] (-) TimerEvent: {}
+[39.404953] (-) TimerEvent: {}
+[39.506737] (-) TimerEvent: {}
+[39.608084] (-) TimerEvent: {}
+[39.709299] (-) TimerEvent: {}
+[39.813817] (microxrcedds_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:132: CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o] Interrupt\n'}
+[39.815810] (-) TimerEvent: {}
+[39.818693] (microxrcedds_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:90: CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o] Interrupt\n'}
+[39.821302] (microxrcedds_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:104: CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o] Interrupt\n'}
+[39.822811] (microxrcedds_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:118: CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o] Interrupt\n'}
+[39.826896] (microxrcedds_agent) StderrLine: {'line': b'gmake[4]: *** [CMakeFiles/Makefile2:85: CMakeFiles/microxrcedds_agent.dir/all] Interrupt\n'}
+[39.828722] (microxrcedds_agent) StderrLine: {'line': b'gmake[3]: *** [Makefile:136: all] Interrupt\n'}
+[39.829795] (microxrcedds_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/uagent.dir/build.make:86: uagent-prefix/src/uagent-stamp/uagent-build] Interrupt\n'}
+[39.842840] (microxrcedds_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Interrupt\n'}
+[39.844098] (microxrcedds_agent) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Interrupt\n'}
+[39.916808] (-) TimerEvent: {}
+[39.950631] (microxrcedds_agent) CommandEnded: {'returncode': -2}
+[39.951851] (microxrcedds_agent) JobEnded: {'identifier': 'microxrcedds_agent', 'rc': 'SIGINT'}
+[39.963206] (-) EventReactorShutdown: {}

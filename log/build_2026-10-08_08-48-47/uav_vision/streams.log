@@ -1,0 +1,23 @@
+[0.208s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_vision -- -j4 -l4
+[0.567s] [100%] Built target aruco_detector_node
+[0.617s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_vision -- -j4 -l4
+[0.629s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_vision
+[0.668s] -- Install configuration: "Release"
+[0.672s] -- Execute custom install script
+[0.676s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/lib/uav_vision/aruco_detector_node
+[0.678s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/package_run_dependencies/uav_vision
+[0.680s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/parent_prefix_path/uav_vision
+[0.683s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/ament_prefix_path.sh
+[0.685s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/ament_prefix_path.dsv
+[0.686s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/path.sh
+[0.687s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/environment/path.dsv
+[0.690s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.bash
+[0.693s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.sh
+[0.695s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.zsh
+[0.696s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/local_setup.dsv
+[0.697s] -- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/package.dsv
+[0.744s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/ament_index/resource_index/packages/uav_vision
+[0.748s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/cmake/uav_visionConfig.cmake
+[0.751s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/cmake/uav_visionConfig-version.cmake
+[0.755s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_vision/share/uav_vision/package.xml
+[0.775s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_vision

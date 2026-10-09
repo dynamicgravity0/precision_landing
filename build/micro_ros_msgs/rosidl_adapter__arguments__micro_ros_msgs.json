@@ -1,0 +1,8 @@
+{
+  "package_name": "micro_ros_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/uav_landing_sim_wg/src/uros/micro_ros_msgs:msg/Graph.msg",
+    "/home/ubuntu/uav_landing_sim_wg/src/uros/micro_ros_msgs:msg/Node.msg",
+    "/home/ubuntu/uav_landing_sim_wg/src/uros/micro_ros_msgs:msg/Entity.msg"
+  ]
+}

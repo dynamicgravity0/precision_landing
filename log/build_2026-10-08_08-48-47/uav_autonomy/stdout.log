@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target landing_manager_node[0m
+[100%] Built target landing_manager_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/uav_autonomy/landing_manager_node
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//launch/hardware.launch.py
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//config/copter_gimbal.parm
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//config/daf_xf_450_tractor.param
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/package_run_dependencies/uav_autonomy
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/parent_prefix_path/uav_autonomy
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.dsv
+-- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.dsv
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/packages/uav_autonomy
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/cmake/uav_autonomyConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/cmake/uav_autonomyConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.xml

@@ -1,0 +1,298 @@
+[0.060s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/uav_landing_sim_wg/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs
+[0.255s] Not searching for unused variables given on the command line.
+[1.149s] -- The C compiler identification is GNU 11.4.0
+[1.887s] -- The CXX compiler identification is GNU 11.4.0
+[1.932s] -- Detecting C compiler ABI info
+[2.317s] -- Detecting C compiler ABI info - done
+[2.341s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.343s] -- Detecting C compile features
+[2.346s] -- Detecting C compile features - done
+[2.360s] -- Detecting CXX compiler ABI info
+[2.744s] -- Detecting CXX compiler ABI info - done
+[2.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.772s] -- Detecting CXX compile features
+[2.774s] -- Detecting CXX compile features - done
+[2.814s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.567s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.200s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.308s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.975s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.461s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.558s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.579s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.714s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.714s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.715s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.715s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[8.818s] -- Found PythonExtra: .so  
+[9.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.389s] -- Added test 'lint_cmake' to check CMake code style
+[9.452s] -- Added test 'xmllint' to check XML markup files
+[9.500s] -- Configuring done
+[9.677s] -- Generating done
+[9.722s] -- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs
+[9.744s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/uav_landing_sim_wg/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs
+[9.753s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs
+[9.964s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[11.145s] [  2%] Built target micro_ros_msgs__rs
+[11.232s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.672s] [  4%] Built target micro_ros_msgs__cpp
+[12.715s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.942s] [  8%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[15.318s] [ 10%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[16.432s] [ 12%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[17.541s] [ 14%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[17.716s] [ 14%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[17.761s] [ 16%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.325s] [ 18%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[19.605s] [ 20%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[19.835s] [ 22%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[20.063s] [ 25%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[20.231s] [ 25%] Built target micro_ros_msgs__rosidl_generator_c
+[20.278s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.646s] [ 29%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[21.933s] [ 31%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[22.130s] [ 33%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[22.313s] [ 35%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.450s] [ 35%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[22.496s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.882s] [ 39%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[25.387s] [ 41%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[26.816s] [ 43%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[28.238s] [ 45%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[28.563s] [ 45%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[28.608s] [ 47%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[29.927s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[32.094s] [ 52%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[34.020s] [ 54%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[35.721s] [ 56%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[36.067s] [ 56%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[36.112s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[37.326s] [ 60%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[37.483s] [ 62%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[37.633s] [ 64%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[37.779s] [ 66%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[37.946s] [ 66%] Built target micro_ros_msgs__rosidl_typesupport_c
+[37.992s] [ 68%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[39.421s] [ 70%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[41.328s] [ 72%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[43.205s] [ 75%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[45.062s] [ 77%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[45.398s] [ 77%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[45.484s] [ 77%] Built target micro_ros_msgs
+[45.601s] [ 77%] Built target ament_cmake_python_copy_micro_ros_msgs
+[46.627s] running egg_info
+[46.630s] creating micro_ros_msgs.egg-info
+[46.631s] writing micro_ros_msgs.egg-info/PKG-INFO
+[46.632s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[46.633s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[46.634s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[46.645s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[46.648s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[46.782s] [ 77%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[46.869s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[49.141s] [ 79%] Built target micro_ros_msgs__py
+[49.227s] [ 81%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[49.817s] [ 83%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[50.285s] [ 85%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[50.756s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so[0m
+[50.945s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[51.032s] [ 89%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[51.531s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[51.694s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[51.783s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[52.243s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[52.400s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[52.488s] [ 97%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[52.934s] [100%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[53.083s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[53.126s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs
+[53.172s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs
+[53.199s] -- Install configuration: ""
+[53.200s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[53.201s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[53.202s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[53.203s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[53.204s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[53.205s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[53.206s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[53.207s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[53.208s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[53.209s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[53.211s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[53.212s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[53.213s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[53.214s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[53.216s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[53.217s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[53.218s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[53.219s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[53.220s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[53.221s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[53.223s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[53.224s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[53.226s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[53.228s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[53.229s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[53.229s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[53.229s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[53.231s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[53.231s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[53.233s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[53.234s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[53.235s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[53.238s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[53.239s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[53.239s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[53.239s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[53.240s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[53.241s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[53.242s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[53.244s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[53.245s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[53.246s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[53.247s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[53.249s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[53.252s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[53.252s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[53.254s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[53.255s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[53.255s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[53.256s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[53.257s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[53.258s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[53.259s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[53.259s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[53.261s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[53.262s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[53.263s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[53.264s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[53.265s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[53.266s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[53.267s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[53.269s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[53.270s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[53.271s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[53.272s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[53.273s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[53.275s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[53.275s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[53.275s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[53.277s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[53.277s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[53.279s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[53.279s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[53.281s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[53.282s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[53.286s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[53.287s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[53.287s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[53.287s] -- Up-to-date: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[53.288s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[53.289s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[53.290s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[53.291s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[53.293s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[53.294s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[53.305s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[53.313s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[53.314s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[53.318s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[53.318s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[53.319s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[53.321s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info
+[53.322s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[53.323s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[53.324s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[53.325s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[53.327s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs
+[53.327s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[53.329s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[53.330s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[53.331s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[53.333s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[53.335s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[53.336s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[53.337s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg
+[53.338s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[53.339s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[53.340s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[53.341s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[53.342s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[53.343s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[53.345s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[53.346s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[53.514s] Listing '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[53.515s] Compiling '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...
+[53.516s] Listing '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[53.517s] Compiling '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...
+[53.518s] Compiling '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...
+[53.519s] Compiling '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...
+[53.520s] Compiling '/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...
+[53.542s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[53.545s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[53.547s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[53.550s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[53.551s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[53.554s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[53.555s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[53.558s] -- Set runtime path of "/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[53.558s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust
+[53.559s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src
+[53.560s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg.rs
+[53.561s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg
+[53.561s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg/rmw.rs
+[53.562s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/lib.rs
+[53.564s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/build.rs
+[53.565s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/rust/Cargo.toml
+[53.566s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[53.567s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[53.568s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[53.570s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[53.571s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[53.572s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[53.573s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[53.575s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[53.576s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[53.577s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[53.579s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[53.580s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[53.581s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[53.582s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[53.584s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[53.585s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[53.586s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[53.588s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[53.589s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[53.591s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[53.592s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[53.593s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[53.595s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[53.597s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[53.598s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[53.600s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[53.601s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[53.603s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[53.604s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[53.606s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[53.607s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[53.609s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[53.610s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[53.612s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[53.613s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[53.615s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[53.616s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.617s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[53.619s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[53.620s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[53.621s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.623s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[53.624s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[53.625s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[53.626s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[53.628s] -- Installing: /home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[53.636s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/micro_ros_msgs

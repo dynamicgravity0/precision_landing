@@ -1,0 +1,1 @@
+/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy/ament_cmake_environment_hooks/local_setup.bash

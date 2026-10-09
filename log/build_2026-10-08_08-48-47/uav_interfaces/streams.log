@@ -1,0 +1,21 @@
+[0.106s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_interfaces -- -j4 -l4
+[0.297s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_interfaces -- -j4 -l4
+[0.351s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_interfaces
+[0.401s] -- Install configuration: "Release"
+[0.404s] -- Execute custom install script
+[0.405s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_interfaces
+[0.407s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_interfaces
+[0.409s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.sh
+[0.410s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.dsv
+[0.413s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.sh
+[0.415s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/environment/path.dsv
+[0.417s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.bash
+[0.419s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.sh
+[0.421s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.zsh
+[0.422s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/local_setup.dsv
+[0.423s] -- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.dsv
+[0.472s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/ament_index/resource_index/packages/uav_interfaces
+[0.475s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig.cmake
+[0.477s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig-version.cmake
+[0.481s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_interfaces/share/uav_interfaces/package.xml
+[0.491s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_interfaces

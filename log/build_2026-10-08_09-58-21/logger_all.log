@@ -1,0 +1,273 @@
+[0.675s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'uav_autonomy']
+[0.676s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['uav_autonomy'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9ae34b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9af3dd80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9af3dd80>>, mixin_verb=('build',))
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.703s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/uav_landing_sim_wg'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore_ament_install'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extensions ['colcon_pkg']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/Micro-XRCE-DDS-Agent) by extension 'colcon_pkg'
+[1.891s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[1.892s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'microxrcedds_agent' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[1.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Micro-XRCE-DDS-Agent' with type 'cmake' and name 'microxrcedds_agent'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[1.914s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extension 'ignore'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extension 'ignore_ament_install'
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extensions ['colcon_pkg']
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extension 'colcon_pkg'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extensions ['colcon_meta']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extension 'colcon_meta'
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extensions ['ros']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_autonomy) by extension 'ros'
+[1.921s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_autonomy' with type 'ros.ament_cmake' and name 'uav_autonomy'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extension 'ignore'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extension 'ignore_ament_install'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extensions ['colcon_pkg']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extension 'colcon_pkg'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extensions ['colcon_meta']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extension 'colcon_meta'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extensions ['ros']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_interfaces) by extension 'ros'
+[1.926s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_interfaces' with type 'ros.ament_cmake' and name 'uav_interfaces'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extensions ['ignore', 'ignore_ament_install']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extension 'ignore'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extension 'ignore_ament_install'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extensions ['colcon_pkg']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extension 'colcon_pkg'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extensions ['colcon_meta']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extension 'colcon_meta'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extensions ['ros']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_vision) by extension 'ros'
+[1.933s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_vision' with type 'ros.ament_cmake' and name 'uav_vision'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[1.987s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[2.004s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.106s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg: {'name': 'microxrcedds_agent', 'type': 'cmake', 'dependencies': ['fastcdr', 'fastdds'], 'cmake-args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']}
+[2.114s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_msgs' in 'src/uros/micro_ros_msgs'
+[2.114s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_setup' in 'src/micro_ros_setup'
+[2.114s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'microxrcedds_agent' in 'src/Micro-XRCE-DDS-Agent'
+[2.114s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'uav_interfaces' in 'src/uav_interfaces'
+[2.114s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'uav_vision' in 'src/uav_vision'
+[2.115s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'micro_ros_agent' in 'src/uros/micro-ROS-Agent/micro_ros_agent'
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ubuntu/uav_landing_sim_wg/install
+[2.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 205 installed packages in /opt/ros/humble
+[2.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.283s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'cmake_args' from command line to 'None'
+[2.283s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'cmake_target' from command line to 'None'
+[2.283s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.283s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[2.283s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[2.284s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[2.284s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[2.284s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[2.284s] Level 5:colcon.colcon_core.verb:set package 'uav_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.284s] DEBUG:colcon.colcon_core.verb:Building package 'uav_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy', 'merge_install': False, 'path': '/home/ubuntu/uav_landing_sim_wg/src/uav_autonomy', 'symlink_install': True, 'test_result_base': None}
+[2.285s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/uav_landing_sim_wg/src/uav_autonomy' with build type 'ament_cmake'
+[2.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/uav_landing_sim_wg/src/uav_autonomy'
+[2.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy -- -j4 -l4
+[3.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy -- -j4 -l4
+[3.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy
+[3.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_autonomy)
+[3.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy
+[3.250s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy' for CMake module files
+[3.254s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy' for CMake config files
+[3.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_autonomy', 'cmake_prefix_path')
+[3.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/hook/cmake_prefix_path.ps1'
+[3.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/hook/cmake_prefix_path.dsv'
+[3.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/hook/cmake_prefix_path.sh'
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib'
+[3.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/bin'
+[3.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/pkgconfig/uav_autonomy.pc'
+[3.271s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/python3.10/site-packages'
+[3.273s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/bin'
+[3.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.ps1'
+[3.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.dsv'
+[3.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.sh'
+[3.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.bash'
+[3.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.zsh'
+[3.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/colcon-core/packages/uav_autonomy)
+[3.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uav_autonomy)
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy' for CMake module files
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy' for CMake config files
+[3.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('uav_autonomy', 'cmake_prefix_path')
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/hook/cmake_prefix_path.ps1'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/hook/cmake_prefix_path.dsv'
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/hook/cmake_prefix_path.sh'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib'
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/bin'
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/pkgconfig/uav_autonomy.pc'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/python3.10/site-packages'
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/bin'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.ps1'
+[3.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.dsv'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.sh'
+[3.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.bash'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.zsh'
+[3.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/colcon-core/packages/uav_autonomy)
+[3.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.333s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.339s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/uav_landing_sim_wg/install/local_setup.ps1'
+[3.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/uav_landing_sim_wg/install/_local_setup_util_ps1.py'
+[3.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/uav_landing_sim_wg/install/setup.ps1'
+[3.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/uav_landing_sim_wg/install/local_setup.sh'
+[3.366s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/uav_landing_sim_wg/install/_local_setup_util_sh.py'
+[3.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/uav_landing_sim_wg/install/setup.sh'
+[3.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/uav_landing_sim_wg/install/local_setup.bash'
+[3.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/uav_landing_sim_wg/install/setup.bash'
+[3.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/uav_landing_sim_wg/install/local_setup.zsh'
+[3.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/uav_landing_sim_wg/install/setup.zsh'

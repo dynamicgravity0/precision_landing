@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_vision -- -j4 -l4
+Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_vision -- -j4 -l4
+Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_vision
+Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_vision

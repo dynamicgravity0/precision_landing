@@ -1,0 +1,62 @@
+[0.106s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent': /usr/bin/cmake /home/ubuntu/uav_landing_sim_wg/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent
+[0.679s] -- The C compiler identification is GNU 11.4.0
+[0.724s] -- Detecting C compiler ABI info
+[0.966s] -- Detecting C compiler ABI info - done
+[0.990s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.991s] -- Detecting C compile features
+[0.993s] -- Detecting C compile features - done
+[1.272s] -- The CXX compiler identification is GNU 11.4.0
+[1.309s] -- Detecting CXX compiler ABI info
+[1.784s] -- Detecting CXX compiler ABI info - done
+[1.811s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.812s] -- Detecting CXX compile features
+[1.816s] -- Detecting CXX compile features - done
+[1.917s] -- Looking for pthread.h
+[2.283s] -- Looking for pthread.h - found
+[2.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.650s] -- Found Threads: TRUE  
+[2.711s] -- Configuring done
+[2.726s] -- Generating done
+[2.733s] -- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent
+[2.754s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent' returned '0': /usr/bin/cmake /home/ubuntu/uav_landing_sim_wg/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent
+[2.766s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent': /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent -- -j4 -l4
+[2.967s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[3.276s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[3.378s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[3.489s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[3.597s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[3.635s] loading initial cache file /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+[3.658s] -- Setting build type to 'Release' as none was specified.
+[3.937s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.938s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[3.938s]   does not match the name of the calling package (TinyXML2).  This can lead
+[3.938s]   to problems in calling code that expects `find_package` result variables
+[3.939s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.939s] Call Stack (most recent call first):
+[3.940s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[3.940s]   /usr/local/share/fastdds/cmake/fastdds-config.cmake:51 (find_package)
+[3.940s]   CMakeLists.txt:156 (find_package)
+[3.941s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.941s] [0m
+[3.942s] -- Found tinyxml2: /usr/lib/aarch64-linux-gnu/libtinyxml2.so  
+[4.179s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.214s] -- Configuring done
+[4.281s] -- Generating done
+[4.300s] -- Build files have been written to: /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent
+[4.378s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[4.571s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[4.578s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[4.587s] [  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[4.626s] [  8%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[27.962s] [ 10%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[39.738s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:132: CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o] Interrupt
+[39.743s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:90: CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o] Interrupt
+[39.745s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:104: CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o] Interrupt
+[39.746s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:118: CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o] Interrupt
+[39.751s] gmake[4]: *** [CMakeFiles/Makefile2:85: CMakeFiles/microxrcedds_agent.dir/all] Interrupt
+[39.752s] gmake[3]: *** [Makefile:136: all] Interrupt
+[39.765s] gmake[2]: *** [CMakeFiles/uagent.dir/build.make:86: uagent-prefix/src/uagent-stamp/uagent-build] Interrupt
+[39.766s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Interrupt
+[39.767s] gmake: *** [Makefile:91: all] Interrupt
+[39.874s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent' returned '-2': /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/microxrcedds_agent -- -j4 -l4

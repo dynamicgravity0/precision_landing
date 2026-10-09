@@ -1,0 +1,27 @@
+[0.091s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy -- -j4 -l4
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target landing_manager_node[0m
+[0.485s] [100%] Built target landing_manager_node
+[0.570s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy -- -j4 -l4
+[0.584s] Invoking command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy
+[0.629s] -- Install configuration: "Release"
+[0.635s] -- Execute custom install script
+[0.640s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/lib/uav_autonomy/landing_manager_node
+[0.644s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//launch/hardware.launch.py
+[0.648s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//config/copter_gimbal.parm
+[0.649s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy//config/daf_xf_450_tractor.param
+[0.652s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/package_run_dependencies/uav_autonomy
+[0.654s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/parent_prefix_path/uav_autonomy
+[0.658s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/ament_prefix_path.sh
+[0.660s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/ament_prefix_path.dsv
+[0.661s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/path.sh
+[0.662s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/environment/path.dsv
+[0.664s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.bash
+[0.667s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.sh
+[0.669s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.zsh
+[0.671s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/local_setup.dsv
+[0.672s] -- Symlinking: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.dsv
+[0.720s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/ament_index/resource_index/packages/uav_autonomy
+[0.724s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/cmake/uav_autonomyConfig.cmake
+[0.725s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/cmake/uav_autonomyConfig-version.cmake
+[0.727s] -- Up-to-date symlink: /home/ubuntu/uav_landing_sim_wg/install/uav_autonomy/share/uav_autonomy/package.xml
+[0.748s] Invoked command in '/home/ubuntu/uav_landing_sim_wg/build/uav_autonomy' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/uav_landing_sim_wg/install/uav_interfaces:/home/ubuntu/uav_landing_sim_wg/install/uav_vision:/home/ubuntu/uav_landing_sim_wg/install/uav_autonomy:/home/ubuntu/uav_landing_sim_wg/install/microxrcedds_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_setup:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_agent:/home/ubuntu/uav_landing_sim_wg/install/micro_ros_msgs:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/uav_landing_sim_wg/build/uav_autonomy
